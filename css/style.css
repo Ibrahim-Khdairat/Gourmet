@@ -1,0 +1,317 @@
+#header
+{
+    position: relative;
+    display: inline-block;
+    width: 1520px;
+    height: 40px;
+    background-color: white;
+    padding:  8px 16px;
+    position: fixed;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+#header div
+{
+    color: black;
+
+    float: left;
+    margin-left: 10px;
+    padding: 8px 16px;
+}
+#header div a
+{
+    color: black;
+
+    text-decoration: none;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+
+
+#header nav ul li
+{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+
+}
+#header nav ul li a
+{
+    color: black;
+
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+
+#header nav
+{
+
+    float: right;
+    padding-right: 32px;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+
+header 
+{
+    /* background-image: url('https://www.w3schools.com/w3images/hamburger.jpg'); */
+    position: relative;
+    width: 1520px;
+    height: 870px;
+}
+
+header h1
+{
+    margin-top: -60px;
+    margin-left: 30px;
+    font-size: 36px;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    color: rgb(92, 92, 92);
+    letter-spacing: 3px;
+    font-weight: 200;
+
+}
+
+
+body
+{
+    overflow-x: hidden;
+}
+
+
+
+
+#first
+{
+
+    border-bottom: solid 1px rgb(184, 184, 184);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+
+    height: 730px;
+}
+
+
+#first div:first-child
+{
+   
+
+    float: left;
+}
+#first div:first-child img
+{
+    width: 500px;
+    height: 630px;
+}
+
+#first div:last-child
+{
+    float: right;
+    width: 550px;
+    height: 530px;
+}
+
+#first div:last-child h1
+{
+    font-size: 36px;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 3px;
+    font-weight: 200;
+    text-align: center;
+    height: 54px;
+    line-height: 54px;
+    padding: 8px 16px;
+}
+
+#first div:last-child h5
+{
+    font-size: 18px;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 3px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+#first div:last-child p
+{
+    font-size: 18px;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#p1
+{
+    line-height: 25px;
+    margin-bottom: 18px;
+}
+
+#p1 span
+{
+  background-color: #e7e0e0;
+  padding: 3px;
+
+}
+
+#p2
+{
+    color: #757575;
+    line-height: 25px;
+    margin-bottom: 18px;
+}
+
+
+#second
+{
+
+    margin-top: 100px;
+    border-bottom: solid 1px rgb(184, 184, 184);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    height: 810px;
+}
+
+#second div:first-child
+{
+    float: left;
+}
+
+#second div:last-child
+{
+   
+    float: right;
+}
+
+#second div:last-child img
+{
+    width: 500px;
+    height: 730px;
+
+}
+
+
+#second div:first-child h1
+{
+    font-size: 36px;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 3px;
+    font-weight: 200;
+    text-align: center;
+    height: 54px;
+    line-height: 54px;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+}
+
+#second div:first-child h4
+{
+    height: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 3px;
+    
+}
+
+
+#second div:first-child p
+{
+    color:#757575;
+    padding-bottom: 30px;
+}
+
+#third
+{
+    margin-top: 50px;
+    border-bottom: solid 1px rgb(184, 184, 184);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    height: 680px;
+
+}
+
+#third h1
+{
+   
+    font-size: 36px;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 3px;
+    font-weight: 200;
+    height: 54px;
+    line-height: 54px;
+    padding: 8px 16px;
+    padding-left: 0px;
+    margin-bottom: 30px;
+}
+
+#third p
+{
+    
+    line-height: 25px;
+    margin-bottom: 18px;
+ 
+}
+
+#third b
+{
+    color: #607D8B;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+
+#third input
+{
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+
+    width: 100%;
+    height: 55px;
+    padding-left: 8px;
+    padding-bottom: 10px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+#third button
+{
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+
+    background-color: #F1F1F1;
+    border: none;
+}
+
+#third button:hover
+{
+    background-color: #c5bdbd;
+
+}
+
+
+footer
+{
+    background-color: #F1F1F1;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+}
+
+footer a:first-child
+{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
